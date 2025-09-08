@@ -1,10 +1,10 @@
 # Handwritten-Digit-Recogniser
-
 * This project demonstrates a handwritten digit recognition system using the MNIST dataset and a Convolutional Neural Network (CNN) built with TensorFlow/Keras.
 * The trained model can recognize digits (0–9) not only from the MNIST dataset but also from handwritten images stored in a folder.
-
+## About MNIST dataset:
+* The MNIST database (Modified National Institute of Standards and Technology database) of handwritten digits consists of a training set of 60,000 examples, and a test set of 10,000 examples.
+* It is a subset of a larger set available from NIST. Additionally, the black and white images from NIST were size-normalized and centered to fit into a 28x28 pixel bounding box and anti-aliased, which introduced grayscale levels.
 ## Features 📌
-
 * Trains a CNN model on the MNIST dataset with >97% accuracy.
 * Saves the trained model for later predictions.
 * Reads handwritten digit images (.jpg/.png) from a folder and predicts them.
