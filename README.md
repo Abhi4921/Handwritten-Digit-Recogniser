@@ -18,13 +18,13 @@
 ## Project Structure 📂 
 ```
 MSA_proj/
-│── CNN.py\n                # Train the CNN model on MNIST
-│── Model.py                  # Predict handwritten digits from images
-│──tf_cnn_model.h5           # Saved trained model (after training)
-│── imagegenerate.py # Generates images for you according to MNIST dataset
-│── my_digits/         # Place your handwritten or generated digit images here
+│── CNN.py\n          # Train the CNN model on MNIST
+│── Model.py          # Predict handwritten digits from images
+│──tf_cnn_model.h5    # Saved trained model (after training)
+│── imagegenerate.py  # Generates images for you according to MNIST dataset
+│── my_digits/        # Place your handwritten or generated digit images here
 │    └── digit1.jpg
-│── README.md       # Project documentation
+│── README.md         # Project documentation
 ```
 
 ## Usage 🧪
